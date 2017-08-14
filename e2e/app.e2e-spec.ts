@@ -1,6 +1,6 @@
 import { AngularMapsPage } from './app.po';
 
-describe('angular-maps App', () => {
+describe('@innovations-ke/angular-maps App', () => {
   let page: AngularMapsPage;
 
   beforeEach(() => {
