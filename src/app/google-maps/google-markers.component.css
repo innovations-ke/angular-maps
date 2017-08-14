@@ -1,0 +1,23 @@
+div.google-marker-component {
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+div.google-marker-component.bordered {
+    background-color: #ebf3f7;
+    border: 1px solid #9c9c9c;
+}
+
+div.google-marker-component .map-title-div {
+    background-color: #001C2C;
+    border: 1pt solid #001C2C;
+    height: 30pt;
+    max-height: 30pt;
+    margin-top: -2px;
+}
+
+div.google-marker-component .map-title {
+    color: #FFFFFF;
+    font-size : 14pt;
+    text-align: center;
+}

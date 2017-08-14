@@ -1,0 +1,11 @@
+<div [ngClass]="{'google-marker-component': true, 'bordered': hasBorder}" [hidden]="!showing">
+	<div *ngIf="title" class="map-title-div">
+		<h4 class="map-title">{{title}}</h4>
+	</div>
+	<div style="height: 400px; width: 90%; margin: 30px auto 30px auto;" id="google-marker">
+		<div *ngIf="loadingMessage" class="loading">
+            <div class="loader-animation"></div>
+            <h4 class="loader-text">{{loadingMessage}}</h4>
+        </div>
+	</div>
+</div>
