@@ -1,16 +1,48 @@
 {
-  "compileOnSave": false,
+  "angularCompilerOptions": {
+    "genDir": "dist",
+    "strictMetadataEmit": true
+  },
   "compilerOptions": {
-    "outDir": "./dist/out-tsc",
-    "sourceMap": true,
-    "declaration": false,
-    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "target": "es5",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "target": "es5",
-    "lib": [
-      "es2016",
-      "dom"
+    "allowUnusedLabels": false,
+    "noImplicitReturns": true,
+    "sourceMap": true,
+    "declaration": true,
+    "skipLibCheck": true,
+    "outDir": "./dist",
+    "rootDir": "."
+  },
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts",
+    "dist"
+  ],
+  "files": [
+    "index.ts"
+  ],
+  "paths": {
+    "@angular/core": [
+      "node_modules/@angular/core"
+    ],
+    "rxjs/*": [
+      "node_modules/rxjs/*"
+    ],
+    "@angular/http": [
+      "node_modules/@angular/http"
+    ],
+    "@angular/forms": [
+      "node_modules/@angular/forms"
+    ],
+    "rxjs/Observable": [
+      "node_modules/rxjs/Observable"
     ]
-  }
+  },
+  "typeRoots": [
+    "node_modules/@types"
+  ]  
 }

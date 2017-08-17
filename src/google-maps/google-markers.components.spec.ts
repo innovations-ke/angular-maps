@@ -1,4 +1,3 @@
-///<reference path="../../../node_modules/@types/googlemaps/index.d.ts"/>
 declare var google: any;
 import { TestBed, async } from '@angular/core/testing';
 import { GoogleMarkersComponent } from './google-markers.component';
