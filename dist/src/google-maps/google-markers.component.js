@@ -8,7 +8,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var core_1 = require('@angular/core');
+Object.defineProperty(exports, "__esModule", { value: true });
+var core_1 = require("@angular/core");
 /**
  * Use this to display maps using google coordinates
  *
@@ -79,20 +80,20 @@ var GoogleMarkersComponent = (function () {
         this.showing = false;
     };
     __decorate([
-        core_1.Input(), 
-        __metadata('design:type', Object)
+        core_1.Input(),
+        __metadata("design:type", Object)
     ], GoogleMarkersComponent.prototype, "hasBorder", void 0);
     __decorate([
-        core_1.Input(), 
-        __metadata('design:type', Object)
+        core_1.Input(),
+        __metadata("design:type", Object)
     ], GoogleMarkersComponent.prototype, "showing", void 0);
     __decorate([
-        core_1.Input(), 
-        __metadata('design:type', String)
+        core_1.Input(),
+        __metadata("design:type", String)
     ], GoogleMarkersComponent.prototype, "title", void 0);
     __decorate([
-        core_1.Input(), 
-        __metadata('design:type', String)
+        core_1.Input(),
+        __metadata("design:type", String)
     ], GoogleMarkersComponent.prototype, "loadingMessage", void 0);
     GoogleMarkersComponent = __decorate([
         core_1.Component({
@@ -100,8 +101,7 @@ var GoogleMarkersComponent = (function () {
             selector: 'app-maps',
             templateUrl: 'google-markers.component.html',
             styleUrls: ['google-markers.component.css']
-        }), 
-        __metadata('design:paramtypes', [])
+        })
     ], GoogleMarkersComponent);
     return GoogleMarkersComponent;
 }());

@@ -18,12 +18,10 @@
     "rootDir": "."
   },
   "exclude": [
-    "node_modules",
-    "**/*.spec.ts",
-    "dist"
+    "node_modules"
   ],
-  "files": [
-    "index.ts"
+  "include": [
+    "src/**/*.ts"
   ],
   "paths": {
     "@angular/core": [

@@ -26,13 +26,3 @@ Desktop.ini
 # Ngc generated files
 **/*.ngfactory.ts
 
-# Omit project files
-*.json
-*.conf.js
-*.gitignore
-*.npmignore
-gulpfile.js
-
-
-
-

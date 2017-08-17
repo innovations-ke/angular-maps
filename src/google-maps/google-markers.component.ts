@@ -1,5 +1,6 @@
 declare var module: any;
 declare var google: any;
+import {} from '@types/googlemaps';
 import { Component, Input } from '@angular/core';
 /**
  * Use this to display maps using google coordinates
