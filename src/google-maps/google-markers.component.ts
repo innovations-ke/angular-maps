@@ -1,4 +1,3 @@
-///<reference path="../../../node_modules/@types/googlemaps/index.d.ts"/>
 declare var module: any;
 declare var google: any;
 import { Component, Input } from '@angular/core';
